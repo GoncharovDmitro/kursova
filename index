@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проста сторінка з кнопками</title>
+    
+    <style>
+        /* Базові стилі */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        /* Контейнер, що центрує все */
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Кнопки одна під одною */
+            align-items: center;    /* Центрування по горизонталі */
+            justify-content: center; /* Центрування по вертикалі */
+            min-height: 80vh;      /* Займає 80% висоти екрану */
+            text-align: center;
+        }
+
+        /* Заголовок */
+        .button-container h1 {
+            color: #333;
+        }
+
+        /* Стилі для "кнопок" (посилань) */
+        .button-link {
+            display: block; /* Робить посилання блочним */
+            width: 250px;     /* Фіксована ширина */
+            padding: 15px;    /* Внутрішні відступи */
+            margin-bottom: 15px; /* Відступ між кнопками */
+            
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none; /* Прибираємо підкреслення */
+            
+            background-color: #007bff; /* Синій фон */
+            color: #ffffff;           /* Білий текст */
+            
+            border: none;
+            border-radius: 8px; /* Заокруглені кути */
+            
+            transition: background-color 0.3s ease;
+        }
+
+        /* Ефект при наведенні */
+        .button-link:hover {
+            background-color: #0056b3; /* Темніший синій */
+        }
+        
+        /* Посилання для повернення назад */
+        .back-link {
+            margin-top: 30px;
+            color: #555;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+        
+        <h1>Спеціальні пропозиції</h1>
+
+        <a href="#" class="button-link">Пропозиція 1</a>
+
+        <a href="#" class="button-link">Пропозиція 2</a>
+
+        <a href="#" class="button-link">Пропозиція 3</a>
+
+        <a href="#" class="button-link">Пропозиція 4</a>
+
+        <a href="index.html" class="back-link">Повернутися на Головну</a>
+    </div>
+
+</body>
+</html>
