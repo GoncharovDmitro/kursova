@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт онлайн-планування турів</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Хедер -->
+    <header>
+        <div class="logo">
+            <img src="pic\logo.webp" alt="Travlog Лого" class="logo-img">
+            <span class="logo-text">Travlog</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="#">Відкривати</a></li>
+                <li><a href="#">Спецпропозиції</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+       <div class="auth-buttons">
+            <a href="login.html" class="btn btn-outline">Увійти</a>
+            <a href="register.html" class="btn btn-primary">Реєстрація</a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Герой секція -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text left-aligned">
+                    <div class="explore-world-btn">
+                        <i class="fas fa-arrow-right"></i>
+                        Досліджуйте світ
+                    </div>
+                    <h1>Подорожуйте <span>топ напрямками</span> світу</h1>
+                    <p>Ми завжди робимо наших клієнтів щасливими, надаючи якомога більше вибору</p>
+                    <div class="hero-cta">
+                        <button class="btn btn-get-started">
+                            Почати
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-watch-demo">
+                            <i class="fas fa-play-circle"></i>
+                            Дивитись Демо
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="image-stack">
+                    <div class="image-stack-item image-stack-item-mid">
+                        <img src="pic\1.webp" alt="Зображення 1">
+                    </div>
+                    <div class="image-stack-item image-stack-item-downright">
+                        <img src="pic\p2.webp" alt="Зображення 2">
+                    </div>
+                    <div class="image-stack-item image-stack-item-top">
+                        <img src="pic\p1.webp" alt="Зображення 3">
+                    </div>
+                    <div class="image-stack-item image-stack-item-right">
+                        <img src="pic\p3.webp" alt="Зображення 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика Секція -->
+    <section class="stats">
+        <div class="stat-item">
+            <img src="pic\g1.webp" alt="Зображення 1">
+        </div>
+        <div class="stat-item">
+            <img src="pic\g2.webp" alt="Зображення 2">
+        </div>
+        <div class="stat-item">
+            <img src="pic\g3.webp" alt="Зображення 3">
+        </div>
+        <div class="stat-item">
+            <img src="pic\g4.webp" alt="Зображення 4">
+        </div>
+        <div class="stat-item">
+            <img src="pic\g5.webp" alt="Зображення 5">
+        </div>
+    </section>
+
+    <!-- Сервіси Секція -->
+    <section class="services">
+        <div class="services-container">
+            <!-- Текст зліва -->
+            <div class="services-header">
+                <div class="services-subtitle">ПОСЛУГИ</div>
+                <h3 class="services-title">Наші топові категорії для вас</h3>
+            </div>
+            
+            <!-- Картки справа -->
+            <div class="services-content">
+                <div class="services-grid">
+                    <!-- Сервіс 1 -->
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="pic\q1.webp" alt="Найкращий Гід">
+                        </div>
+                        <div class="service-info">
+                            <h4>Найкращий Гід</h4>
+                            <p>Що виглядало як невелика ділянка фіолетової трави, вище п'яти футів.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Сервіс 2 -->
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="pic\q2.webp" alt="Легке Бронювання">
+                        </div>
+                        <div class="service-info">
+                            <h4>Легке Бронювання</h4>
+                            <p>Квадрат рухався по піску в їхньому напрямку.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Сервіс 3 -->
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="pic\q3.webp" alt="Прогноз Погоди">
+                        </div>
+                        <div class="service-info">
+                            <h4>Прогноз Погоди</h4>
+                            <p>Обличчя місяця було в тіні, показуючи дивовижні прогнози погоди.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Напрямки Секція -->
+    <section class="destinations">
+        <div class="container">
+            <div class="section-header-with-controls">
+                <div class="header-content">
+                    <div class="section-subtitle">ТОП НАПРЯМКИ</div>
+                    <h2 class="section-title">Досліджуйте топові напрямки</h2>
+                </div>
+                <div class="header-controls">
+                    <button class="slider-btn prev-btn">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="slider-btn next-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="destinations-slider">
+                <div class="destinations-cards">
+                    <!-- Картка 1 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic/w1.webp" alt="Пляж Рай">
+                            <div class="card-rating">4.8 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Пляж Рай, острів Бантаян</h3>
+                                <div class="card-price">$550.16</div>
+                            </div>
+                            <p class="card-location">Рим, Італія</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Картка 2 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w2.webp" alt="Океан повний Кольорів">
+                            <div class="card-rating">4.5 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Океан повний Кольорів</h3>
+                                <div class="card-price">$20.99</div>
+                            </div>
+                            <p class="card-location">Мальдіви</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Картка 3 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w3.webp" alt="Вид на Гори">
+                            <div class="card-rating">5.0 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Вид на Гори, Над Хмарами</h3>
+                                <div class="card-price">$150.99</div>
+                            </div>
+                            <p class="card-location">Об'єднані Арабські Емірати</p>
+                        </div>
+                    </div>
+
+                    <!-- Картка 4 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w4.webp" alt="Тропічний Рай">
+                            <div class="card-rating">4.7 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Тропічний Рай, Пальмовий Пляж</h3>
+                                <div class="card-price">$420.50</div>
+                            </div>
+                            <p class="card-location">Таїланд</p>
+                        </div>
+                    </div>
+
+                    <!-- Картка 5 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w5.webp" alt="Альпійський Відпочинок">
+                            <div class="card-rating">4.9 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Альпійський Відпочинок, Снігова Долина</h3>
+                                <div class="card-price">$320.75</div>
+                            </div>
+                            <p class="card-location">Швейцарія</p>
+                        </div>
+                    </div>
+
+                    <!-- Картка 6 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w6.webp" alt="Міські Вогні">
+                            <div class="card-rating">4.6 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Міські Вогні, Центр Міста</h3>
+                                <div class="card-price">$280.30</div>
+                            </div>
+                            <p class="card-location">Нью-Йорк, США</p>
+                        </div>
+                    </div>
+
+                    <!-- Картка 7 -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="pic\w7.webp" alt="Історичне Місце">
+                            <div class="card-rating">4.8 ★</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Історичне Місце, Стародавні Руїни</h3>
+                                <div class="card-price">$190.25</div>
+                            </div>
+                            <p class="card-location">Греція</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Особливості Секція -->
+    <section class="features">
+        <div class="container">
+            <div class="features-content">
+                <div class="features-image">
+                    <img src="pic\e1.webp" alt="Точка Подорожі" class="features-img">
+                </div>
+                
+                <div class="features-text">
+                    <div class="features-subtitle">ТОЧКА ПОДОРОЖІ</div>
+                    <h2 class="features-title">Ми допомагаємо знайти ваше місце мрії</h2>
+                    <p class="features-desc">На відміну від поширеної думки, Lorem Ipsum не є випадковим текстом. Він має коріння в класичній латинській літературі з 45 року до н.е.</p>
+                    
+                    <div class="features-stats">
+                        <div class="stat-grid">
+                            <!-- Стат 1 -->
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Турпакетів</div>
+                            </div>
+                            
+                            <!-- Стат 2 -->
+                            <div class="stat-item">
+                                <div class="stat-number">100</div>
+                                <div class="stat-label">Розкішних Готелів</div>
+                            </div>
+                            
+                            <!-- Стат 3 -->
+                            <div class="stat-item">
+                                <div class="stat-number">7</div>
+                                <div class="stat-label">Преміальних Авіаліній</div>
+                            </div>
+                            
+                            <!-- Стат 4 -->
+                            <div class="stat-item">
+                                <div class="stat-number">2к+</div>
+                                <div class="stat-label">Щасливих Клієнтів</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Ключові Особливості Секція -->
+    <section class="key-features">
+        <div class="container">
+            <div class="key-features-content">
+                <div class="key-features-text">
+                    <div class="key-features-subtitle">КЛЮЧОВІ ОСОБЛИВОСТІ</div>
+                    <h2 class="key-features-title">Ми пропонуємо найкращі послуги</h2>
+                    <p class="key-features-desc">На відміну від поширеної думки, Lorem Ipsum не є випадковим текстом. Він має коріння в класичній латинській літературі з 45 року до н.е.</p>
+                    
+                    <div class="features-list">
+                        <!-- Особливість 1 -->
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <div class="icon-image">
+                                    <img src="pic/a3.webp" alt="Ми пропонуємо найкращі послуги">
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Ми пропонуємо найкращі послуги</h3>
+                                <p class="feature-desc">Lorem Ipsum не є випадковим текстом</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Лінія між особливостями -->
+                        <div class="feature-line"></div>
+                        
+                        <!-- Особливість 2 -->
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <div class="icon-image">
+                                    <img src="pic/a1.webp" alt="Плануйте свою подорож">
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Плануйте свою подорож</h3>
+                                <p class="feature-desc">Має коріння в класичній літературі</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Лінія між особливостями -->
+                        <div class="feature-line"></div>
+                        
+                        <!-- Особливість 3 -->
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <div class="icon-image">
+                                    <img src="pic/a2.webp" alt="Отримайте знижкові купони">
+                                </div>
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Отримайте знижкові купони</h3>
+                                <p class="feature-desc">Lorem Ipsum не є випадковим текстом</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="key-features-images">
+                    <!-- Основне зображення -->
+                    <div class="main-feature-image">
+                        <img src="pic/r1.webp" alt="Рай на Землі" class="feature-main-img">
+                    </div>
+                    <!-- Накладене зображення -->
+                    <div class="overlay-feature-image">
+                        <img src="pic/r2.webp" alt="Рай Накладення" class="feature-overlay-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Відгуки Секція -->
+    <section class="testimonials">
+        <div class="testimonials-bg">
+            <img src="pic/t1.webp" alt="Фон" class="bg-image">
+        </div>
+        
+        <div class="container">
+            <div class="testimonials-header">
+                <div class="testimonials-subtitle">ВІДГУКИ</div>
+                <h2 class="testimonials-title">Довіряйте нашим клієнтам</h2>
+            </div>
+            
+            <div class="testimonials-slider">
+                <!-- Кнопка назад -->
+                <button class="slider-nav-btn nav-prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                
+                <div class="testimonial-slides">
+                    <!-- Слайд 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">На відміну від поширеної думки, Lorem Ipsum не є випадковим текстом. Він має коріння в класичній латинській літературі з 45 року до н.е.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="pic/t2.webp" alt="Марк Сміт">
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name">Марк Сміт</div>
+                                    <div class="author-role">Ентузіаст Подорожей</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Слайд 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">Інший текст відгуку буде тут. Ви можете додати кілька відгуків від різних клієнтів.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="pic/t3.webp" alt="Клієнт 2">
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name">Сара Джонсон</div>
+                                    <div class="author-role">Шукач Пригод</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Слайд 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">Третій текст відгуку. Ви можете додати стільки слайдів, скільки потрібно для різних клієнтів.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="pic/t4.webp" alt="Клієнт 3">
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name">Джон Девіс</div>
+                                    <div class="author-role">Діловий Мандрівник</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Кнопка вперед -->
+                <button class="slider-nav-btn nav-next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Розсилка Секція -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">ПІДПИШІТЬСЯ НА НАШУ РОЗСИЛКУ</h2>
+                <h3 class="newsletter-subtitle">Підготуйте себе & давайте досліджуємо<br>красу світу</h3>
+                
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="emailInput" 
+                            class="email-input" 
+                            placeholder="Ваш Email" 
+                            required
+                        >
+                        <button type="submit" class="subscribe-btn">
+                            Підписатися
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="newsletter-message" id="newsletterMessage"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Футер -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">Travlog</div>
+                <p class="footer-desc">Ми надаємо найкращі туристичні враження та напрямки по всьому світу.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3 class="footer-title">Компанія</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Кар'єра</a></li>
+                    <li><a href="#">Мобільний</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3 class="footer-title">Контакти</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Допомога/FAQ</a></li>
+                    <li><a href="#">Преса</a></li>
+                    <li><a href="#">Партнери</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3 class="footer-title">Більше</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Авіатарифи</a></li>
+                    <li><a href="#">Авіалінії</a></li>
+                    <li><a href="#">Поради з економії</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 TravelWorld. Всі права захищені.</p>
+        </div>
+    </footer>
+<div id="demoModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal-btn">&times;</span>
+        
+        <h2>Демонстрація Платформи</h2>
+        <div class="video-wrapper">
+            <iframe 
+                src="https://youtu.be/Tfu252cYFVc?si=3aQeykHtpWkZC3YO" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>Це вікно показує, як працює наш сервіс планування.</p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

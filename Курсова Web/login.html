@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід - Travlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <form class="auth-form" id="loginForm">
+            <a href="index.html" class="auth-logo">
+                <img src="pic/logo.webp" alt="Travlog Лого" class="logo-img">
+                <span class="logo-text">Travlog</span>
+            </a>
+            <h2>Вхід у ваш акаунт</h2>
+            
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Пароль" required>
+                <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="auth-btn">Увійти</button>
+
+            <p class="auth-link">
+                Немає акаунту? <a href="register.html">Зареєструватись</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
