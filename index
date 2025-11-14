@@ -68,13 +68,13 @@
         
         <h1>Спеціальні пропозиції</h1>
 
-        <a href="#" class="button-link">Пропозиція 1</a>
+        <a href="Курсова Web\login.html" class="button-link">Пропозиція 1</a>
 
-        <a href="#" class="button-link">Пропозиція 2</a>
+        <a href="Курсова Web\register.html" class="button-link">Пропозиція 2</a>
 
-        <a href="#" class="button-link">Пропозиція 3</a>
+        <a href="Курсова Web\contacts.html" class="button-link">Пропозиція 3</a>
 
-        <a href="#" class="button-link">Пропозиція 4</a>
+        <a href="Курсова Web\index.html" class="button-link">Пропозиція 4</a>
 
         <a href="index.html" class="back-link">Повернутися на Головну</a>
     </div>
