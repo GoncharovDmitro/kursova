@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гарячі Тури & Знижки - Travlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="offers.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="pic/logo.webp" alt="Travlog Лого" class="logo-img">
+            <span class="logo-text">Travlog</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="discover.html">Відкривати</a></li>
+                <li><a href="offers.html" class="active-page" style="color: var(--purple); font-weight: 700;">Спецпропозиції</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Увійти</a>
+                <a href="register.html" class="btn btn-primary">Реєстрація</a>
+            </div>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main class="offers-page">
+        
+        <section class="countdown-section">
+            <div class="container">
+                <div class="countdown-content">
+                    <span class="badge-hot">🔥 ГАРЯЧА ПРОПОЗИЦІЯ</span>
+                    <h1>Літній Розпродаж</h1>
+                    <p>Знижки до 50% на найкращі курорти світу. Поспішайте, пропозиція обмежена!</p>
+                    
+                    <div class="timer-container">
+                        <div class="timer-box">
+                            <span id="days">02</span>
+                            <span class="label">Днів</span>
+                        </div>
+                        <div class="timer-box">
+                            <span id="hours">14</span>
+                            <span class="label">Годин</span>
+                        </div>
+                        <div class="timer-box">
+                            <span id="minutes">35</span>
+                            <span class="label">Хвилин</span>
+                        </div>
+                        <div class="timer-box">
+                            <span id="seconds">12</span>
+                            <span class="label">Секунд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers-grid-section">
+            <div class="container">
+                <div class="offers-grid">
+                    
+                    <div class="offer-card">
+                        <div class="offer-image">
+                            <img src="pic/w1.webp" alt="Балі">
+                            <div class="discount-badge">-30%</div>
+                        </div>
+                        <div class="offer-details">
+                            <div class="offer-location"><i class="fas fa-map-marker-alt"></i> Балі, Індонезія</div>
+                            <h3>Райський відпочинок на віллі</h3>
+                            <div class="price-block">
+                                <span class="old-price">$1200</span>
+                                <span class="new-price">$840</span>
+                            </div>
+                            <ul class="features-list-small">
+                                <li><i class="fas fa-check"></i> Сніданки включено</li>
+                                <li><i class="fas fa-check"></i> Трансфер з аеропорту</li>
+                            </ul>
+                            <button class="btn-offer">Забронювати зараз</button>
+                        </div>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-image">
+                            <img src="pic/w2.webp" alt="Париж">
+                            <div class="discount-badge">-20%</div>
+                        </div>
+                        <div class="offer-details">
+                            <div class="offer-location"><i class="fas fa-map-marker-alt"></i> Париж, Франція</div>
+                            <h3>Романтичний вікенд</h3>
+                            <div class="price-block">
+                                <span class="old-price">$800</span>
+                                <span class="new-price">$640</span>
+                            </div>
+                            <ul class="features-list-small">
+                                <li><i class="fas fa-check"></i> Екскурсія на вежу</li>
+                                <li><i class="fas fa-check"></i> Вечеря на двох</li>
+                            </ul>
+                            <button class="btn-offer">Забронювати зараз</button>
+                        </div>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-image">
+                            <img src="pic/w3.webp" alt="Єгипет">
+                            <div class="discount-badge hot">HOT</div>
+                        </div>
+                        <div class="offer-details">
+                            <div class="offer-location"><i class="fas fa-map-marker-alt"></i> Шарм, Єгипет</div>
+                            <h3>Все включено: 7 ночей</h3>
+                            <div class="price-block">
+                                <span class="old-price">$600</span>
+                                <span class="new-price">$399</span>
+                            </div>
+                            <ul class="features-list-small">
+                                <li><i class="fas fa-check"></i> 5 зірок готель</li>
+                                <li><i class="fas fa-check"></i> Перша лінія</li>
+                            </ul>
+                            <button class="btn-offer">Забронювати зараз</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">Travlog</div>
+                <p class="footer-desc">Ми надаємо найкращі туристичні враження та напрямки по всьому світу.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Компанія</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Кар'єра</a></li>
+                    <li><a href="#">Мобільний</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Контакти</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Допомога/FAQ</a></li>
+                    <li><a href="#">Преса</a></li>
+                    <li><a href="#">Партнери</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Більше</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Авіатарифи</a></li>
+                    <li><a href="#">Авіалінії</a></li>
+                    <li><a href="#">Поради з економії</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 TravelWorld. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <script>
+        // Простий таймер зворотного відліку
+        const daysEl = document.getElementById('days');
+        const hoursEl = document.getElementById('hours');
+        const minsEl = document.getElementById('minutes');
+        const secondsEl = document.getElementById('seconds');
+
+        // Встановлюємо дату "через 2 дні" від сьогодні
+        let targetDate = new Date();
+        targetDate.setDate(targetDate.getDate() + 2);
+
+        function updateTimer() {
+            const currentDate = new Date();
+            const diff = targetDate - currentDate;
+
+            if (diff < 0) {
+                // Якщо час вийшов - скидаємо
+                targetDate.setDate(targetDate.getDate() + 2);
+                return;
+            }
+
+            const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+            const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+            const m = Math.floor(diff / 1000 / 60) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+
+            daysEl.innerHTML = d < 10 ? '0' + d : d;
+            hoursEl.innerHTML = h < 10 ? '0' + h : h;
+            minsEl.innerHTML = m < 10 ? '0' + m : m;
+            secondsEl.innerHTML = s < 10 ? '0' + s : s;
+        }
+
+        setInterval(updateTimer, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація - Travlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <form class="auth-form" id="registerForm">
+            <a href="index.html" class="auth-logo">
+                <img src="pic/logo.webp" alt="Travlog Лого" class="logo-img">
+                <span class="logo-text">Travlog</span>
+            </a>
+            <h2>Створення акаунту</h2>
+            
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" placeholder="Повне ім'я" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Пароль" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password-confirm" placeholder="Підтвердіть пароль" required>
+                <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="auth-btn">Зареєструватись</button>
+
+            <p class="auth-link">
+                Вже є акаунт? <a href="login.html">Увійти</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

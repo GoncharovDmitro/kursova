@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Travlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pic/logo.webp" alt="Travlog Лого" class="logo-img">
+            <span class="logo-text">Travlog</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="#">Відкривати</a></li>
+                <li><a href="#">Спецпропозиції</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn btn-outline">Увійти</a>
+            <a href="register.html" class="btn btn-primary">Реєстрація</a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <div class="container">
+            <div class="contact-header">
+                <div class="section-subtitle">ЗВ'ЯЖІТЬСЯ З НАМИ</div>
+                <h1 class="section-title">Ми завжди раді допомогти</h1>
+                <p>Маєте питання чи пропозиції? Заповніть форму нижче, і наша команда відповість вам якомога швидше.</p>
+            </div>
+            
+            <div class="contact-content-wrapper">
+                <div class="contact-form-container">
+                    <h3>Надіслати повідомлення</h3>
+                    <form id="contactForm">
+                        <div class="input-group">
+                            <label for="name">Ваше ім'я</label>
+                            <input type="text" id="name" placeholder="Іван Петренко" required>
+                            <small class="error-message"></small>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Ваш Email</label>
+                            <input type="email" id="email" placeholder="example@gmail.com" required>
+                            <small class="error-message"></small>
+                        </div>
+                        <div class="input-group">
+                            <label for="subject">Тема</label>
+                            <input type="text" id="subject" placeholder="Питання про бронювання" required>
+                            <small class="error-message"></small>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Ваше повідомлення</label>
+                            <textarea id="message" rows="6" placeholder="Розкажіть детальніше..." required></textarea>
+                            <small class="error-message"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Надіслати</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <h3>Контактна інформація</h3>
+                    <p>Зв'яжіться з нами напряму або завітайте до нашого офісу.</p>
+                    
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>вул. Туристична, 1, м. Київ, 01001, Україна</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+380 (44) 123-45-67</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@travlog.ua</span>
+                        </li>
+                    </ul>
+                    
+                    <h3>Ми на карті</h3>
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.500241940149!2d30.52206667683935!3d50.4500001861057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50c5ee91ad%3A0x6a40f000b91dcf87!2z0JzQsNGF0LDRgNC_0L3QsyBOb3J0aGVybiBBY2NlbnQ!5e0!3m2!1suk!2sua!4v1731586520123!5m2!1suk!2sua" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">Travlog</div>
+                <p class="footer-desc">Ми надаємо найкращі туристичні враження та напрямки по всьому світу.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Компанія</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Кар'єра</a></li>
+                    <li><a href="#">Мобільний</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Контакти</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Допомога/FAQ</a></li>
+                    <li><a href="#">Преса</a></li>
+                    <li><a href="#">Партнери</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Більше</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Авіатарифи</a></li>
+                    <li><a href="#">Авіалінії</a></li>
+                    <li><a href="#">Поради з економії</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TravelWorld. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contacts.js"></script>
+</body>
+</html>
